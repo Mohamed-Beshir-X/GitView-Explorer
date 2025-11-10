@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+*::selection{
+    background-color: #ff56224a;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.repos-container{
+    width: 600px;
+    margin: 40px auto;
+    background-color: #ddd;
+}
+.field{
+    padding: 10px;
+    display: flex;
+}
+.field input{
+    width: 500px;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    
+    font-weight: bold;
+    height: 35px;
+    caret-color:#FF5722;
+}
+.field input:focus{
+    outline: none;
+    border: 2px solid #FF5722;
+    color: #FF5722;
+}
+.field input::placeholder{
+    transition: 0.5s;
+}
+.field input:focus::placeholder{
+    opacity: 0;
+}
+.field button{
+    border: none;
+    color: white;
+    background-color: #FF5722;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.field button:hover{
+    background-color: #00ce52;
+}
+.repos-show{
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    min-height: 58px;
+}
+.repos-show span.no-tasks{
+    color: #FF5722;
+    font-weight: bold;
+}
+.repos-show span.empty{
+    color: #ff2622;
+    font-weight: bold;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-div p{
+    background-color: yellow;
+}
+.main-div a{
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    background-color: #FF5722;
+    border-radius: 4px;
+    transition: 0.5s;
+
+}
+.main-div a:hover{
+    background-color: #e7400d;
+}
