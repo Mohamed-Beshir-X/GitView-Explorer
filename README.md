@@ -2,7 +2,8 @@
 
 A simple web app that lets you explore any GitHub user's public repositories in seconds.  
 Just type a username, hit **Get Repos**, and browse through all repositories with quick access links.
-
+---
+**Level:** 🟢 Simple
 ---
 
 ## 🚀 Features
